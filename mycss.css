@@ -1,0 +1,53 @@
+body{
+      background-color: rgb(125, 123, 123);
+}
+*{
+      padding: 0;
+      margin: 0;
+
+}
+.SowN{
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      align-items: center;
+      justify-items: center;
+      background: #393939;
+      
+}
+.about a{
+      display: inline-flex;
+      width: 250px;
+      height: 280px;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 150px;
+      margin-left: 50px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      border-radius: 15px;
+  
+      background-size: 100% 200%;
+      background-position: 0% 5%;
+      transition: 0.5s;
+}
+
+.about a:nth-child(1){
+      color: #1976d3;
+      background-image: linear-gradient(#fff 50%,#1976d3 50%);
+      }
+
+.about a:nth-child(2){
+      color: rgb(243, 71, 186);
+      background-image: linear-gradient(#fff 50%,rgb(243, 71, 186)50%);
+}
+
+.about a:nth-child(3){
+      color: #0a66c2;
+      background-image: linear-gradient(#fff 50%,#0a66c2 50%);
+}
+
+.about a:hover{
+      background-position: 0% 100%;
+      color:#fff;
+}
