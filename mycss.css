@@ -6,6 +6,17 @@ body{
       margin: 0;
 
 }
+h1{
+      color: whitesmoke;
+      background-color: #393939;
+      font-size: 100px;
+      text-align: center;    
+}
+
+h1:hover{
+      color: gold;
+      background-position: 0% 100%;
+}
 .SowN{
       display: flex;
       width: 100%;
@@ -36,13 +47,16 @@ body{
       color: #1976d3;
       background-image: linear-gradient(#fff 50%,#1976d3 50%);
       }
-
 .about a:nth-child(2){
-      color: rgb(243, 71, 186);
-      background-image: linear-gradient(#fff 50%,rgb(243, 71, 186)50%);
+      color: #dc1bd2;
+      background-image: linear-gradient(#fff 50%,#dc1bd2 50%);
+}
+.about a:nth-child(3){
+      color: black;
+      background-image: linear-gradient(#fff 50%,black 50%);
 }
 
-.about a:nth-child(3){
+.about a:nth-child(4){
       color: #0a66c2;
       background-image: linear-gradient(#fff 50%,#0a66c2 50%);
 }
